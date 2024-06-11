@@ -1,0 +1,87 @@
+*{
+    font-family: poppins;
+}
+
+#navbar{
+    justify-content: space-between;
+}
+
+#navbar a{
+    color: #292a2c;
+    font-weight: 600;
+}
+#navbar a:hover{
+    color: #f2a340;
+}
+.banner{
+    width: 100%;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.btn-primary{
+    background-color: #f2a340 !important;
+    border: 0px transparent !important;
+}
+
+#search-container{
+    background-image: url(../images/events.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #f2a340;
+    border-radius: 20px;
+    text-align: center;
+
+}
+#search-container h1{
+    font-weight: 900;
+    color: #f2a340;
+    margin-top: 5%;
+
+}
+#events-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    text-align: center;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 5%;
+    border: none #292a2c;
+    padding: 4%;
+    border-radius: 20px;
+    transition: all 0.3s;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.cards:hover{
+        transform: scale(1.1);
+
+}
+.cards p{
+    height: 50px;
+}
